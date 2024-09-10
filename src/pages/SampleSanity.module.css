@@ -1,0 +1,50 @@
+.rowField {
+  display: flex
+}
+
+label {
+  width: 80px
+}
+
+input {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.containerUsers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.usersSanity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px
+}
+
+.form {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px
+}
